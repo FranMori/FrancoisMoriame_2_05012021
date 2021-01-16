@@ -1,0 +1,594 @@
+* {
+  font-family: "Raleway", sans-serif;
+  padding-left: 15px;
+  padding-right: 10px;
+}
+
+/* header */
+header {
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+.logo img {
+  display: flex;
+  width: 75px;
+  height: 40px;
+  align-self: center;
+  margin-top: 5px;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav li {
+  margin-right: 30px;
+}
+
+.titre {
+  text-align: left;
+}
+
+h1 {
+  font-size: 17px;
+  font-weight: 700;
+  padding-bottom: 0px;
+}
+
+.description {
+  font-size: 13px;
+}
+
+/* map */
+
+.map {
+  display: flex;
+}
+
+.logomap i {
+  font-size: 12px;
+  background-color: #f2f2f2;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-top-left-radius: 30%;
+  border-bottom-left-radius: 30%;
+}
+
+.Marseille input {
+  border-color: #f2f2f2;
+  height: 25px;
+  margin-left: -25px;
+}
+
+.bouton {
+  background-color: #0065fc;
+  border-width: 0px;
+  border-top-right-radius: 17%;
+  border-bottom-right-radius: 17%;
+  margin-left: -25px;
+}
+
+/* filtres */
+
+.filtres {
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px;
+  margin: 20px 10px;
+}
+
+.text p {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.logoeco i {
+  color: #0065fc;
+  background-color: #deebff;
+  padding: 10px 10px 10px 10px;
+
+  border-radius: 50%;
+}
+
+.logofami i {
+  color: #0065fc;
+  padding: 10px 10px 10px 10px;
+  background-color: #deebff;
+  border-radius: 50%;
+}
+
+.logoroman i {
+  color: #0065fc;
+  padding: 10px 10px 10px 10px;
+  background-color: #deebff;
+  border-radius: 50%;
+}
+.logoani i {
+  color: #0065fc;
+  padding: 10px 10px 10px 10px;
+  background-color: #deebff;
+  border-radius: 50%;
+}
+
+.eco p {
+  font-weight: 700;
+  font-size: 14px;
+  margin-left: -25px;
+}
+
+.fami p {
+  font-weight: 700;
+  font-size: 14px;
+  margin-left: -25px;
+}
+.roman p {
+  font-weight: 700;
+  font-size: 14px;
+  margin-left: -25px;
+}
+.ani p {
+  font-weight: 700;
+  font-size: 14px;
+  margin-left: -25px;
+}
+
+/* infos */
+
+.infos {
+  display: inline-flex;
+  justify-content: flex-start;
+}
+
+.logoinfos i {
+  font-size: 15px;
+  color: #0065fc;
+  padding: 11px 11px 11px 11px;
+  border: 2px #f2f2f2 solid;
+  border-radius: 50%;
+}
+
+.textinfos {
+  font-size: 15px;
+  margin-left: -25px;
+}
+/* body */
+/* Hébergements à Marseille */
+
+.Hébergements {
+  display: flex;
+  flex-flow: row wrap;
+  background-color: #f2f2f2;
+  border-radius: 1%;
+  width: 50%;
+}
+
+#hébergement {
+  min-width: 2000px;
+  font-size: 20px;
+}
+
+/* Cannebière */
+
+.Cannebière {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 5%;
+  margin-right: 25px;
+  padding: 0px 0px 0px 0px;
+}
+
+.imgcanne img {
+  width: 200px;
+  padding: 0px 0px 0px 0px;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+}
+
+.textcanne h3 {
+  font-size: 15px;
+}
+
+.textcanne .span {
+  font-weight: 700;
+  margin-left: -15px;
+}
+
+.textcanne p {
+  font-size: 15px;
+}
+
+.textcanne i {
+  color: #0065fc;
+  margin-left: -28px;
+}
+
+.textcanne .spani {
+  padding-left: 25px;
+}
+
+/* Port */
+
+.Port {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  background-color: white;
+  border: 0px white hidden;
+  border-radius: 1%;
+  margin-right: 25px;
+  padding: 0px 0px 0px 0px;
+}
+.imgport img {
+  width: 200px;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+}
+
+.textport h3 {
+  font-size: 15px;
+}
+.textport .span {
+  font-weight: 700;
+  margin-left: -15px;
+}
+
+.textport p {
+  font-size: 15px;
+}
+
+.textport i {
+  color: #0065fc;
+  margin-left: -28px;
+}
+
+.textport .spani {
+  padding-left: 25px;
+}
+
+/* Mouettes */
+
+.Mouettes {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  background-color: white;
+  border: 0px white hidden;
+  border-radius: 1%;
+  margin-right: 25px;
+  padding: 0px 0px 0px 0px;
+}
+.imgmouettes img {
+  width: 200px;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+}
+
+.textMouettes h3 {
+  font-size: 15px;
+}
+.textMouettes .span {
+  font-weight: 700;
+  margin-left: -15px;
+}
+
+.textMouettes p {
+  font-size: 15px;
+}
+
+.textMouettes i {
+  color: #0065fc;
+  margin-left: -28px;
+}
+
+.textMouettes .spani {
+  padding-left: 25px;
+}
+
+/* Mer */
+
+.mer {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  background-color: white;
+  border: 0px white hidden;
+  border-radius: 1%;
+  margin-right: 25px;
+  padding: 0px 0px 0px 0px;
+}
+.imgmer img {
+  width: 200px;
+  height: 133.33px;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+}
+
+.textmer h3 {
+  font-size: 15px;
+}
+.textmer .span {
+  font-weight: 700;
+  margin-left: -15px;
+}
+
+.textmer p {
+  font-size: 15px;
+}
+
+.textmer i {
+  color: #0065fc;
+  margin-left: -28px;
+}
+
+.textmer .spani {
+  padding-left: 25px;
+}
+
+/* Panier */
+
+.Panier {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  background-color: white;
+  border: 0px white hidden;
+  border-radius: 1%;
+  margin-right: 25px;
+  padding: 0px 0px 0px 0px;
+}
+.imgpanier img {
+  width: 200px;
+  height: 133.33px;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+}
+
+.textpanier h3 {
+  font-size: 15px;
+}
+.textpanier .span {
+  font-weight: 700;
+  margin-left: -15px;
+}
+
+.textpanier p {
+  font-size: 15px;
+}
+
+.textpanier i {
+  color: #0065fc;
+  margin-left: -28px;
+}
+
+.textpanier .spani {
+  padding-left: 25px;
+}
+
+/* Amina */
+
+.Amina {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  background-color: white;
+  border: 0px white hidden;
+  border-radius: 1%;
+  margin-right: 25px;
+  padding: 0px 0px 0px 0px;
+}
+.imgamina img {
+  width: 200px;
+  height: 133.33px;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+}
+
+.textamina h3 {
+  font-size: 15px;
+}
+.textamina .span {
+  font-weight: 700;
+  margin-left: -15px;
+}
+
+.textamina p {
+  font-size: 15px;
+}
+
+.textamina i {
+  color: #0065fc;
+  margin-left: -28px;
+}
+
+.textamina .spani {
+  padding-left: 25px;
+}
+
+#Afficher {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+/* Les plus populaires */
+.Populaires {
+  display: flex;
+  align-content: flex-end;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  background-color: #f2f2f2;
+  border-radius: 1%;
+}
+
+#Populaires {
+  font-size: 20px;
+}
+
+.entetepopu {
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+
+.logopopu {
+  display: flex;
+  align-self: center;
+  font-size: 25px;
+}
+
+/* soleil */
+
+.soleil {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  background-color: white;
+  border: 0px white hidden;
+  border-radius: 1%;
+  padding: 0px 0px 0px 0px;
+}
+
+.imgsoleil img {
+  width: 150px;
+  height: 112.5px;
+}
+
+.textsoleil h3 {
+  font-size: 15px;
+  padding: 0px 0px 0px 0px;
+}
+.textsoleil .span {
+  font-weight: 700;
+  margin-left: -15px;
+}
+
+.textsoleil p {
+  font-size: 15px;
+  padding: 0px 0px 0px 0px;
+}
+
+.textsoleil i {
+  color: #0065fc;
+  margin-left: -28px;
+}
+
+.textsoelil .spani {
+  padding: 0px 0px 0px 0px;
+}
+
+/* eau */
+
+.eau {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  background-color: white;
+  border: 0px white hidden;
+  border-radius: 1%;
+  padding: 0px 0px 0px 0px;
+}
+
+.imgeau img {
+  width: 150px;
+  height: 112.5px;
+}
+
+.texteau h3 {
+  font-size: 15px;
+  padding: 0px 0px 0px 0px;
+}
+.texteau .span {
+  font-weight: 700;
+  margin-left: -15px;
+}
+
+.texteau p {
+  font-size: 15px;
+  padding: 0px 0px 0px 0px;
+}
+
+.texteau i {
+  color: #0065fc;
+  margin-left: -28px;
+}
+
+.texteau .spani {
+  padding: 0px 0px 0px 10px;
+}
+
+/* bleu */
+
+.bleu {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  background-color: white;
+  border: 0px white hidden;
+  border-radius: 1%;
+  padding: 0px 0px 0px 0px;
+}
+
+.imgbleu img {
+  width: 150px;
+  height: 112.5px;
+}
+
+.textbleu h3 {
+  font-size: 15px;
+  padding: 0px 0px 0px 0px;
+}
+.textbleu .span {
+  font-weight: 700;
+  margin-left: -15px;
+}
+
+.textbleu p {
+  font-size: 15px;
+  padding: 0px 0px 0px 0px;
+}
+
+.textbleu i {
+  color: #0065fc;
+  margin-left: -28px;
+}
+
+.textbleu .spani {
+  padding: 0px 0px 0px 10px;
+}
+
+.contenuprincipal {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+
+/* Activités */
+
+.Activités {
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: row wrap;
+}
+
+.imgvieuxport img {
+  width: 350px;
+  height: 500px;
+}
+
+.imgFort img {
+  width: 350px;
+  height: 200px;
+}
+
+.imgiles img {
+  width: 350px;
+  height: 200px;
+}

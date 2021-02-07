@@ -387,9 +387,9 @@ a {
 }
 
 #Activites span {
-  -webkit-box-shadow: 10px 10px 19px 25px rgba(0, 0, 0, 0.05);
-  -moz-box-shadow: 10px 10px 19px 25px rgba(0, 0, 0, 0.05);
-  box-shadow: 10px 10px 19px 25px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: -4px 10px 56px 13px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: -4px 10px 56px 13px rgba(0, 0, 0, 0.1);
+  box-shadow: -4px 10px 56px 13px rgba(0, 0, 0, 0.1);
   padding: 0px;
   border-radius: 25px;
 }
@@ -591,9 +591,9 @@ h5 {
 
   .carteh {
     width: 100%;
-    -webkit-box-shadow: 10px 10px 19px 25px rgba(0, 0, 0, 0.05);
-    -moz-box-shadow: 10px 10px 19px 25px rgba(0, 0, 0, 0.05);
-    box-shadow: 10px 10px 19px 25px rgba(0, 0, 0, 0.05);
+    -webkit-box-shadow: -4px 10px 56px 13px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: -4px 10px 56px 13px rgba(0, 0, 0, 0.1);
+    box-shadow: -4px 10px 56px 13px rgba(0, 0, 0, 0.1);
     padding: 0px;
     border-radius: 25px;
   }

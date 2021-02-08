@@ -19,9 +19,13 @@ html {
   padding-bottom: 10px;
 }
 
+.logotop {
+  flex: 1;
+}
+
 .top img {
   display: flex;
-  justify-content: flex-start;
+  justify-items: flex-start;
   align-self: center;
   object-fit: cover;
   height: 45px;

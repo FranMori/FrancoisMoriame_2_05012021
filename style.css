@@ -21,7 +21,6 @@ header {
 .top {
   display: flex;
   padding-bottom: 10px;
-  align-items: center;
   padding-left: 0px;
 }
 
@@ -42,14 +41,15 @@ header {
 
 nav ul {
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
   margin: 0px;
+}
+
+nav li {
+  padding-top: 20px;
 }
 
 li:hover {
   border-top: #0065fc 1px solid;
-  padding-top: 15px;
 }
 
 .sub {

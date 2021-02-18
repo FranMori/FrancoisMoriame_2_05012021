@@ -31,9 +31,6 @@ header {
 
 .top img {
   display: flex;
-  justify-items: flex-start;
-  align-self: center;
-  object-fit: cover;
   height: 45px;
   margin-bottom: 10px;
   padding: 0px;
@@ -54,15 +51,10 @@ header li:hover {
 
 .sub {
   display: flex;
-  justify-content: flex-end;
   align-self: center;
   color: #0065fc;
   font-weight: 700;
   padding: 0px;
-}
-
-.black {
-  color: black;
 }
 
 .black:visited {
@@ -77,14 +69,10 @@ nav li {
 }
 
 nav a:visited {
-  text-decoration: none;
   color: #0065fc;
 }
 a {
   text-decoration: none;
-  color: #000000;
-}
-a:visited {
   color: #000000;
 }
 
@@ -104,7 +92,6 @@ h1 {
 .titre {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   padding: 0px;
 }
 /* map */
@@ -120,10 +107,7 @@ h1 {
 .map i {
   font-size: 12px;
   background-color: #f2f2f2;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 10px;
   border-top-left-radius: 30%;
   border-bottom-left-radius: 30%;
 }
@@ -160,7 +144,6 @@ h1 {
 
 .filtres {
   display: flex;
-  justify-content: flex-start;
   padding: 20px;
   margin: 20px 10px;
   padding-left: 0px;
@@ -172,8 +155,6 @@ h1 {
   padding: 15px;
   border-radius: 50%;
   display: flex;
-  justify-items: center;
-  align-items: center;
 }
 
 .filtres p {
@@ -208,7 +189,6 @@ h1 {
 
 .infos {
   display: flex;
-  justify-content: baseline;
   align-items: center;
   padding-left: 0px;
 }
@@ -235,11 +215,7 @@ h1 {
 
 /* Hébergements à Marseille */
 
-#grise {
-  color: #f2f2f2;
-}
 a {
-  width: 100%;
   padding: 0px;
 }
 #Hebergements {
@@ -651,7 +627,8 @@ h5 {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-left: 30px;
+    margin-left: 20px;
+    padding-right: 10px;
   }
 
   /* hébergements */
@@ -668,7 +645,7 @@ h5 {
     flex-wrap: nowrap;
     width: 100%;
     background-color: white;
-    padding-left: 0px;
+    padding-right: 10px;
   }
 
   .row1 {
@@ -694,7 +671,7 @@ h5 {
   }
 
   .carteh {
-    width: 100%;
+    width: 95%;
     -webkit-box-shadow: -2px 2px 12px 3px rgba(0, 0, 0, 0.18);
     -moz-box-shadow: -2px 2px 12px 3px rgba(0, 0, 0, 0.18);
     box-shadow: -2px 2px 12px 3px rgba(0, 0, 0, 0.18);
@@ -708,7 +685,7 @@ h5 {
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    width: 100%;
+    width: 90%;
     height: auto;
     margin-bottom: 0px;
   }
@@ -733,6 +710,7 @@ h5 {
     width: 100%;
     padding-left: 0px;
   }
+
   /* footer */
   footer {
     display: flex;

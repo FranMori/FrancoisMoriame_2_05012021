@@ -48,7 +48,7 @@ nav li {
   padding-top: 20px;
 }
 
-li:hover {
+header li:hover {
   border-top: #0065fc 1px solid;
 }
 
@@ -557,30 +557,28 @@ h5 {
     align-self: flex-end;
     flex-wrap: wrap;
     order: 3;
-    padding-bottom: 5px;
-    flex: 1;
     flex-basis: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
   }
-
+  header ul {
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  header li:hover {
+    border-top: none;
+    border-bottom: 1px #0065fc solid;
+  }
   .navheader {
     display: flex;
     justify-content: center;
+    border-bottom: 2px #f2f2f2 solid;
   }
-
-  .top li {
-    border-bottom: #f2f2f2 2px solid;
-  }
-
-  :hover li {
-    border-bottom: #0065fc 2px solid;
-    padding-top: 0px;
-    border-top: none;
-  }
-
-  :hover .acti {
-    border-bottom: #0065fc 2px solid;
-    padding-top: 0px;
-    border-top: none;
+  .acti {
+    margin-right: 0px;
   }
 
   /* map*/
@@ -615,22 +613,32 @@ h5 {
     margin-bottom: 0px;
     padding-bottom: 0px;
     margin-left: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
   }
 
+  .filtres p {
+    display: flex;
+    align-items: center;
+    font-size: 11px;
+    padding-left: 5px;
+  }
   .cartef {
     margin-bottom: 15px;
     margin-left: 0px;
-    width: 145px;
+    width: 125px;
+    padding-right: 0px;
+    margin-right: 0px;
   }
 
   #ani {
-    width: 210px;
+    width: 165px;
   }
   #fami {
-    width: 110px;
+    width: 95px;
     display: flex;
     order: 4;
-    margin-top: 45px;
+    margin-top: 35px;
   }
   .infos {
     margin-left: 10px;
@@ -799,5 +807,14 @@ h5 {
 
   .col2 {
     width: 45%;
+  }
+}
+
+@media screen and (max-width: 305px) {
+  .filtres {
+    height: 300px;
+  }
+  #fami {
+    margin-top: 0px;
   }
 }

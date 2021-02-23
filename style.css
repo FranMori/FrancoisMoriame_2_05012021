@@ -251,12 +251,14 @@ a {
   padding: 0px 10px 0px 10px;
 }
 .carteh i {
-  color: #0065fc;
   margin: 5px 0px 5px -28px;
   padding: 0px 10px 0px 15px;
 }
 
-#grise {
+.pleine {
+  color: #0065fc;
+}
+.grise {
   color: #f2f2f2;
 }
 
@@ -349,7 +351,6 @@ a {
 }
 
 .cartep i {
-  color: #0065fc;
   margin-left: -30px;
 }
 

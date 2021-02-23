@@ -409,12 +409,26 @@ h2 {
   padding-left: 30px;
 }
 
-#Activites span {
+.cartea1 {
   -webkit-box-shadow: -2px 2px 12px 3px rgba(0, 0, 0, 0.18);
   -moz-box-shadow: -2px 2px 12px 3px rgba(0, 0, 0, 0.18);
   box-shadow: -2px 2px 12px 3px rgba(0, 0, 0, 0.18);
   padding: 0px;
   border-radius: 25px;
+}
+
+.cartea2 {
+  -webkit-box-shadow: -2px 2px 12px 3px rgba(0, 0, 0, 0.18);
+  -moz-box-shadow: -2px 2px 12px 3px rgba(0, 0, 0, 0.18);
+  box-shadow: -2px 2px 12px 3px rgba(0, 0, 0, 0.18);
+  padding: 0px;
+  border-radius: 25px;
+}
+
+.h4 {
+  display: flex;
+  padding: 0px;
+  margin: 0px;
 }
 
 #Activites img {
@@ -424,7 +438,7 @@ h2 {
   padding: 0px;
 }
 
-#Activites p {
+#Activites .h4 {
   margin: 10px;
   font-weight: 700;
 }

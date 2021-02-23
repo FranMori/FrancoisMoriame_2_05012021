@@ -424,8 +424,9 @@ h2 {
   padding: 0px;
 }
 
-#Activites h4 {
+#Activites p {
   margin: 10px;
+  font-weight: 700;
 }
 
 #Activites a {
@@ -440,7 +441,7 @@ h2 {
   height: 550px;
 }
 
-.cartea1 h4 {
+.cartea1 p {
   padding: 0px;
   background-color: white;
 }
@@ -462,7 +463,7 @@ h2 {
   width: 100%;
   height: 80%;
 }
-.cartea2 h4 {
+.cartea2 p {
   margin-top: 5px;
 }
 
@@ -613,25 +614,25 @@ h5 {
   .filtres p {
     display: flex;
     align-items: center;
-    font-size: 11px;
+    /* font-size: 11px; */
     padding-left: 5px;
   }
   .cartef {
     margin-bottom: 15px;
     margin-left: 0px;
-    width: 125px;
+    width: 150px;
     padding-right: 0px;
     margin-right: 0px;
   }
 
   #ani {
-    width: 165px;
+    width: 190px;
   }
   #fami {
-    width: 95px;
+    width: 115px;
     display: flex;
     order: 4;
-    margin-top: 35px;
+    margin-top: 42px;
   }
   .infos {
     margin-left: 10px;
@@ -642,12 +643,16 @@ h5 {
 
   .Populaires {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     width: 100%;
     margin-left: 20px;
-    padding-right: 0px;
+    margin-right: 20px;
   }
-
+  .Populaires i {
+    padding-left: 18px;
+  }
   /* hébergements */
 
   #Hebergements h2 {
@@ -658,13 +663,17 @@ h5 {
   }
   #Hebergements {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     flex-wrap: nowrap;
     width: 100%;
     background-color: white;
     padding-right: 0px;
   }
-
+  .carteh {
+    margin-left: 10px;
+  }
   .row1 {
     display: flex;
     flex-direction: column;
@@ -707,10 +716,10 @@ h5 {
     align-content: center;
     height: auto;
     margin-bottom: 0px;
-    padding-right: 25px;
+    padding-right: 50px;
     overflow: hidden;
   }
-  #Activites h4 {
+  #Activites p {
     padding: 0px 10px 0px 15px;
     margin-bottom: 15px;
   }
@@ -734,6 +743,7 @@ h5 {
 
   .cartea1 {
     overflow: hidden;
+    padding-right: 0px;
   }
 
   .cartea2 a {
@@ -826,7 +836,7 @@ h5 {
   }
 }
 
-@media screen and (max-width: 305px) {
+@media screen and (max-width: 350px) {
   .filtres {
     height: 300px;
   }
